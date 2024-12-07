@@ -67,12 +67,17 @@ describe('AppComponent', () => {
     });
   });
 
-  describe('Body paragraph', () => {
+  describe('Body elements', () => {
     it('should render paragraph with body text', () => {
       const paragraph = compiled.querySelector('p.body-text');
     
       expect(paragraph).toBeTruthy();
       expect(paragraph?.textContent).toContain('Congratulations! Your app is running.');
+    });
+
+    it('should render a counter component', () => {
+      const counterComponent = compiled.querySelector('app-counter');
+      expect(counterComponent).toBeTruthy();
     });
   });
 
