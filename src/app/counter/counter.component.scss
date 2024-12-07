@@ -1,0 +1,48 @@
+:root {
+  --orange-red: oklch(63.32% 0.24 31.68);
+  --vivid-pink: oklch(69.02% 0.277 332.77);
+  --electric-violet: oklch(53.18% 0.28 296.97);
+  --gray-700: oklch(36.98% 0.014 302.71);
+
+  --red-to-pink-to-purple-horizontal-gradient: linear-gradient(
+    90deg,
+    var(--orange-red) 0%,
+    var(--vivid-pink) 50%,
+    var(--electric-violet) 100%
+  );
+}
+
+.counter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+button {
+  background: var(--red-to-pink-to-purple-horizontal-gradient);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  width: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: var(--vivid-pink);
+  transform: scale(1.1);
+}
+
+button:active {
+  background: var(--electric-violet);
+  transform: scale(0.95);
+}
+
+span {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--gray-700);
+}

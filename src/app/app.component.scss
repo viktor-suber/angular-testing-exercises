@@ -24,8 +24,6 @@
     var(--electric-violet) 100%
   );
 
-  --pill-accent: var(--bright-blue);
-
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
@@ -58,7 +56,7 @@ main {
 }
 
 .inner-content {
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   width: 100%;
