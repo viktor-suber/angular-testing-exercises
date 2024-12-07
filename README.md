@@ -5,3 +5,4 @@ Angular unit test practice
 AppComponent - Layout testing
 AngularLogoComponent - Layout testing
 CounterComponent - Basic logic testing
+DataService - Basic service testing
