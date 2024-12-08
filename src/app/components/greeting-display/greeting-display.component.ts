@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { GreetingService } from '../services/greeting/greeting.service';
+import { GreetingService } from '../../services/greeting/greeting.service';
 
 @Component({
   selector: 'app-greeting-display',

@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { GreetingDisplayComponent } from './greeting-display.component';
-import { GreetingService } from '../services/greeting/greeting.service';
+import { GreetingService } from '../../services/greeting/greeting.service';
 
 describe('GreetingDisplayComponent', () => {
   let component: GreetingDisplayComponent;

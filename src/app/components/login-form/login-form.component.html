@@ -1,0 +1,7 @@
+<div class="parent-container">
+<form [formGroup]="form">
+  <input formControlName="username" placeholder="Username" />
+  <input formControlName="password" type="password" placeholder="Password" />
+  <button [disabled]="!form.valid">Login</button>
+</form>
+</div>
