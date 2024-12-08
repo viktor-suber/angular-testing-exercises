@@ -8,3 +8,4 @@ Angular unit test practice
 - DataService - Basic service testing
 - FrameworkListComponent - Testing with mock data/spy
 - AsyncDemoComponent - Testing async behavior - NOT WORKING
+- ApiService - mocking HTTP calls
